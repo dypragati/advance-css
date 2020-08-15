@@ -1,0 +1,53 @@
+h1 {
+    color : blue 
+}
+#para{
+    color : crimson
+
+}
+.header{
+    background-color:  blanchedalmond;
+    display: flex;
+    
+    justify-content: space-between;
+
+}
+.menu{
+    
+    text-align: center;
+    
+
+}
+.grid{
+    background-color: seashell;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.item{
+    
+ text-align: center;
+ position: relative;
+}
+.pragati{
+    font-size: x-large;
+    margin: 50x;
+    padding-left: 50px;
+}
+
+.item p{
+position: absolute;
+top : 50%;
+left : 50%;
+transform : translate(-50%, -50%);
+opacity: 0;
+
+}
+.item:hover p{
+    opacity: 1;
+    color : brown;
+    font-size: 30px;
+}
+.item:hover img{
+    opacity: 0.33;
+}
